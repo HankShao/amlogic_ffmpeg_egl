@@ -1,0 +1,4 @@
+amlogic平台音视频工程：
+1、ffmpeg软件解码；
+2、OpenGL ES + EGL渲染显示
+
