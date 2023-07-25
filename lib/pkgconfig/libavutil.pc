@@ -1,0 +1,14 @@
+prefix=./out
+exec_prefix=${prefix}
+libdir=./out/lib
+includedir=./out/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 57.7.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
